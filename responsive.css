@@ -1,0 +1,121 @@
+@media (max-width: 1400px) {
+  .achievements{
+    width: 100%;
+  }
+figure.skills {
+  width: 200px;
+  height: 320px;
+  margin: 5vh 1vw;
+}
+.skils-img{
+  gap: 30px;
+  margin: auto;
+}
+}
+
+@media (max-width: 1250px) {
+  .hero-txt h1 {
+    display: block;
+  }
+    .container{
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 992px) {
+  :root{
+    	--font-head-xl: 5.5rem;
+      --font-head-lg: 4rem;
+      --font-head-md: 2.5rem;
+      --font-head-sm: 1.5rem;
+      --font-p: 1.2rem;
+  }
+  .personal-info{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero-txt h1 {
+    display: block;
+  }
+
+  .hero-txt p{
+    font-size: 16px;
+  }
+  .info-text *{
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 786px) {
+  :root{
+    	--font-head-xl: 5rem;
+      --font-head-lg: 3.85rem;
+      --font-head-md: 2.3rem;
+      --font-head-sm: 1.4rem;
+      --font-p: 1.15rem;
+  }
+  .hero-btn {
+    padding: 13px 50px 13px;
+  }
+  .hero-txt{
+    max-width: 60%;
+    margin: auto;
+    gap: 30px;
+  }
+  .hero img{
+    display: none;
+  }
+  .hero{
+    width: 100%;
+    padding: 8vh 0;
+  }
+  .skills-div > h1{
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+  .contact-form {
+  max-width: 70%;
+  padding: 0;
+}
+
+}
+
+@media (max-width: 576px) {
+  :root{
+    	--font-head-xl: 4rem;
+      --font-head-lg: 3.2rem;
+      --font-head-md: 1.6rem;
+      --font-head-sm: 1.2rem;
+      --font-p: 1rem;
+  }
+  .hero-txt{
+    max-width: 80%;
+    margin: auto;
+  }
+    figure.skills {
+    margin: 1vh 1vw;
+}
+  .contact-form {
+  max-width: 100%;
+}
+.footer-content{
+  flex-direction: column;
+}
+}
+
+@media (max-width: 400px) {
+  .hero-h1 span{
+    font-size: var(--font-head-xl);
+  }
+  figure.skills {
+  width: 150px;
+  height: 230px;
+  margin: 2vh 1vw;
+}
+.project{
+	width: 300px;
+	height: 480px;
+}
+}
+
